@@ -1,0 +1,120 @@
+/* Definição de fontes e estilo geral | body */
+body {
+    text-align: center;
+
+    /* Definindo as fontes */
+    font-family: 'Poppins', sans-serif;
+
+    /* Definindo a cor de fundo do body */
+    background-color: #f5f5f5;
+
+    /* Definindo a cor da fonte */
+    color: #333;
+
+    /* Colocando os elementos no centro */
+    text-align: center;
+
+    /* Definindo margem interna */
+    padding: 20px;
+}
+
+/* Estilização dos inputs */
+input {
+
+    /* Definindo o tamanho dos inputs para 100% da largura do site */
+    width: 100%;
+
+    /* Definindo margem interna */
+    padding: 10px;
+
+    /* Definindo margem externa */
+    margin: 10px;
+
+    /* Definindo uma margem mais bonita aos inputs */
+    border: 1px solid #ccc;
+}
+
+/* Botão de adicionar */
+button {
+
+    /*Definindo a cor do fundo do botão*/
+    background-color: #28a745;
+
+    /*Definindo a cor da fonte*/
+    color: white;
+
+    /* Removendo a borda do botão pra ficar mais bonito*/
+    border: none;
+
+    /* Aumentando o tamanho do botão através do paddin, definindo margem interna */
+    padding: 10px 15px;
+
+    /* Deixando o botão um pouco arredondado */
+    border-radius: 5px;
+
+    /* Fazendo o cursor trocar a aparência para a 'mãozinha' quando colocado o cursor em cima do botão */
+    cursor: pointer;
+
+    /* Definindo o tamanho da fonte do botão */
+    font-size: 16px;
+}
+
+/* Estilização ao passar o mouse por cima do botão*/
+button:hover {
+
+    /* Trocando a cor de fundo do botão para uma cor mais escura */
+    background-color: #218838;
+}
+
+/* Estilização da tabela */
+table {
+    
+    /* Definindo o tamanho da tabela para 100% da largura do site */
+    width: 100%;
+
+    /* Definindo margem externa */
+    margin: 20px;
+
+    /* Removendo as bordas/espaçamento da tabela */
+    border-collapse: collapse;
+
+    /* Definindo a cor principal da tabela */
+    background: white;
+
+    /* Colocando uma sombra na tabela, para ficar mais bonito */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+}
+
+/* Linhas da tabela */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+#sinopse{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#imagem{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+/* Alternância de cor nas linhas da tabela 
+ even → Se aplica às linhas pares (2, 4, 6, 8...)
+ odd → Se aplica às linhas ímpares (1, 3, 5, 7...) */
+tr:nth-child(even) {
+
+    /*Definindo a cor secundária da tabela */
+    background-color: #f2f2f2;
+}
+
